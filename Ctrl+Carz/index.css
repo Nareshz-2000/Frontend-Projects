@@ -1,0 +1,208 @@
+*{margin: 0px; padding: 0px;box-sizing: border-box;}
+body{
+    width: 100%;
+    
+}
+.login form{
+    border: none;
+    height: 450px;
+    width: 30%;
+    margin: 70px auto;
+    border-radius: 20px;
+    box-shadow: 0px 0px 30px rgba(70, 70, 70, 0.514),0px 0px 60px rgba(81, 82, 82, 0.507);
+    padding: 50px ;
+    display: block;
+    text-align: center; 
+    background: transparent;
+    backdrop-filter: blur(5px);
+    position: relative;
+}
+.login form input{
+    border: none;
+    height: 50px;
+    width: 90%;
+    margin: 30px auto;
+    padding-left: 10px;
+    border-radius: 10px;
+    font-size: 18px;
+    background: whitesmoke;
+}
+
+.login form button{
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    background: blue;
+    font-size: 20px;
+    font-weight: bolder;
+    color: white;
+    position: absolute;
+    top: 300px;
+    left: 215px;
+}
+
+.nav{
+    border: none;
+    height: 70px;
+    width: 100%;
+    display: flex;
+    background: linear-gradient(wheat,teal);
+    position: fixed;
+    top: 0px;
+    z-index: 3;
+}
+.nav .logo{
+    border: none;
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+.nav .logo img{height: 130px; margin-top: 15px;margin-left: 20px; }
+.nav ul{
+    border: none;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    list-style: none;
+}
+.nav ul li{
+    border: none;
+    border-radius: 10px;
+    padding: 10px 15px;
+    list-style: none;
+    background: rgba(0, 0, 255, 0.596);
+    color: rgb(255, 255, 255);
+    font-weight: bolder;
+    transition: all text 0.3s;
+}
+.nav ul li>a{height: 100%;width: 100%;color: white;    text-decoration: none;}
+.nav ul li:hover{
+    transform: scale(1.1);
+}
+.hcontainer .box1{
+    border: none;
+    width: 70%;
+    margin: 330px 50px 0px;
+}
+.hcontainer .box1 h1{
+    font-size: 100px;
+    font-family: cursive;
+    color: yellow;
+}
+.hcontainer .box1 h3{
+    font-size: 50px;
+    color: chartreuse;
+}
+.hcontainer .box1 p{
+    font-size: 30px;
+    color: white;
+}
+
+
+/* toys */
+
+.tcontainer{
+    border: none;
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: space-evenly;
+    margin-top: 100px;
+}
+.tcontainer .card{
+    border: solid 1px;
+    width: 380px;
+    padding: 20px;
+    border-radius: 20px;
+    background: wheat;
+    margin: 20px auto;
+    text-align: center;
+    position: relative;
+    cursor: pointer;
+    transition: all 0.3s ;
+}
+.tcontainer .card>img{
+    height: 200px;
+    display: flex;
+    margin: 10px auto;
+    transition: all 0.7s ;
+
+}
+.tcontainer .card .txt{
+    margin-top: 20px;
+}
+.tcontainer .card strike{
+    color: red;
+}
+.tcontainer .card:hover{
+    transform: scale(1.05);
+}
+.tcontainer .card:hover img{
+    transform: scale(1.3);
+}
+.tcontainer .card button{
+    border: solid 1px;
+    position: absolute;
+    z-index: 2;
+    top: 280px;
+    left: 300px;
+    padding:5px 10px;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    color: blue;
+    cursor: pointer;
+}
+.tcontainer .card button:hover{
+    color: white;
+    background: blue;
+}
+
+
+.scontainer {
+    border: none;
+    width: 100%;
+    margin-top: 80px;
+    display: flex;
+}
+.scontainer .box1{
+    border: none;
+    height: 500px;
+    width: 50%;
+    margin: 10px 20px;
+    border-radius: 20px;
+    background: teal;
+    color: white;
+}
+.scontainer .box1 h1{
+    font-size: 130px;
+    font-weight: bolder;
+    margin: 20px;
+}
+.scontainer .box1 h3{
+    font-size: 50px;
+    margin-left: 20px;
+    color: yellow;
+}
+.scontainer .box1 p{
+    font-size: 30px;
+    margin-left: 20px;
+}
+.scontainer .box1 img{
+    height: 120px;
+    margin: 20px;
+}
+.scontainer .box2{
+    width: 50%;
+}
+.scontainer .box2 .b{
+    width: 80%;
+    padding: 20px;
+    font-size: 40px;
+    font-weight: bold;
+    color: black;
+    border-radius: 20px;
+    margin: 20px 20px 40px;
+    background: wheat;
+}

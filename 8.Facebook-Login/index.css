@@ -1,0 +1,160 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.body1{
+    border: none;
+    height: 700px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #f0f2f5;
+}
+.body1 .con1{
+    border: none;
+    height: 300px;
+    width: 38%;
+    font-family: Helvetica, Arial, sans-serif;
+}
+.body1 .con2{
+    border: none;
+    height: 500px;
+    width: 35%;
+    font-family: Helvetica, Arial, sans-serif;
+}
+.con1 h3{
+    font-size: 60px;
+    color: #0062ff;
+    font-weight: 700;
+    letter-spacing: 0px;
+}
+.con1 p{
+    font-size: 28px;
+    margin-top: 10px;
+}
+.con2 .form{
+    border: none;
+    height: 350px;
+    width: 392px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px lightslategray;
+    margin-top: 32px;
+    margin-left: 70px;
+    background-color: white;
+    display: block;
+}
+.con2 .form input,.log,.bt{
+    border: solid 1px rgb(222, 227, 233);
+    height: 50px;
+    width: 350px;
+    margin: 15px 15px 0px 15px;
+    padding-left: 10px;
+    border-radius: 5px;
+    font-size: 17px;
+    align-items: center;
+}
+.con2 .form>.log{
+    background-color: #0062ff;
+    height: 46px;
+    color: white;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-family: inherit;
+    cursor: pointer;
+}
+.con2 .form a{
+    display: flex;
+    margin-top: 20px;
+    color: #3f55d4;
+    justify-content: center;
+    text-decoration: none;
+    font-size: 14px;
+}
+.con2 .form a:hover{
+    text-decoration: underline;
+}
+.con2 .form .bt{
+    border: none;
+    height: 48px;
+    width: 192px;
+    background: #42b72a;
+    margin: 25px auto;
+    color: white;
+    font-weight: bold;
+    font-size: 17px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0px;
+    cursor: pointer;
+}
+.con2 p{
+    font-size: 14px;
+    margin-top: 28px;
+    margin-left: 115px;
+}
+.foot{
+    border: none;
+    height: 140px;
+    width: 72%;
+    margin: 20px auto;
+}
+.foot>p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    text-align: justify;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    word-spacing: 4px;
+    color: rgb(114, 114, 114);
+    cursor: pointer;
+}
+@media screen and (min-width:100px) and (max-width:900px) {
+    .body1{
+        display: block;
+        width: 100%;
+    }
+    .body1 .con1{
+        height: 200px;
+        width: 70%;
+        margin: 0px auto;
+        text-align: center;
+    }
+    .body .con1 h3{
+        margin-top: 30px;
+    }
+    .con1 p{
+        font-size: 23px;
+    }
+    .body1 .con2{
+        height: auto;
+        width: 80%;
+        margin: 0px auto;
+    }
+    .body1 .con2 .form{
+        margin: 0px auto;
+    }
+    .con2 p{
+        font-size: 13px;
+        margin-top: 28px;
+        margin-left: 20px;
+        display: flex;
+        text-align: center;
+        justify-content: center;
+    }
+    .foot{
+        border: none;
+        height: 180px;
+        width: 100%;
+        margin: 20px auto;
+    }
+    .foot>p{
+        font-size: 14px;
+        margin: 0px auto;
+        word-spacing: 1px;
+    }  
+}

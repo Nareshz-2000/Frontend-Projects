@@ -1,0 +1,64 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{background-color: rgba(0, 0, 0, 0.705);}
+.cont1 .light{
+    border: none;
+    background: transparent;
+    height: 600px;
+    width: 75%;
+    left: 25%;
+    position: absolute;
+    margin: 0px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+}
+.cont1 .light .bulb{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    border-top: solid 20px black;
+    background-color: rgb(189, 176, 176);
+}
+.cont1 .light>span{
+    position: absolute;
+    height: 80px;
+    width: 100px;
+    border-radius: 30px 30px 0px 0px;
+    background: black;
+    top: 130px;
+    z-index: 1;
+}
+.cont1 .light .wire{
+    border: solid 5px;
+    height: 1000px;
+    position: relative;
+    bottom: 100%;
+    left: 100px;
+    z-index: 1;
+}
+.cont1 .light>button{
+    border: solid 1px;
+    height: 50px;
+    width: 100px;
+    box-shadow: 3px 3px 5px black;
+    border-radius: 10px;
+    position: absolute;
+    top: 200px;
+    font-size: 25px;
+    font-weight: bold;
+    background: green;
+    color: white;
+}
+button{
+    height: 50px;
+    width: 250px;
+    border-radius: 10px;
+    margin: 300px 0px 0px 50px;
+    font-size: 25px;
+    font-weight: bold;
+    cursor: pointer;
+}
