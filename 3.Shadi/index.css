@@ -1,0 +1,382 @@
+*{margin: 0px; padding: 0px;}
+
+.header{
+    border: none;
+    height: 700px;
+    width: 100%;
+    display: flex;
+    background-image: url(./Image/Indru\ Netru\ Naalai\ Movie\ Images\ Hd\ \(1\).jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.header .logo{
+    border: none;
+    height: 40px;
+    width: 70%;
+}
+.header .loginbutton{
+    border: none;
+    height: 70px;
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+}
+.logo img{
+    margin: 38px;
+    height: 84px;
+    width: auto;
+}
+.login{
+    border: none;
+    background-color: #6D5E63;
+    height: 40px;
+    width: 80px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: -5px 5px 5px black;
+}
+.join{
+    border: none;
+    background-color: #368D87;
+    height: 45px;
+    width: 150px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 8px;
+    box-shadow: -5px 5px 5px black;
+}
+.login:hover,.join:hover{
+    background-color: rgb(233, 233, 219);
+}
+.hp1{
+    position: absolute;
+    border: none;
+    width: 100%;
+    background-color: black;
+    box-shadow: -5px 5px 5px black;
+    border-radius: 10px;
+    color: white;
+    opacity: 0.7;
+    top: 440px;
+    left: 55%;
+    width: 550px;
+    font-size: 40px;
+}
+.hp2{
+    position: absolute;
+    border: none;
+    color: white;
+    margin: 0px;
+    top: 560px;
+    left: 10px;
+    width: 400px;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+}
+.hp2 img{
+    height: 110px;
+    mix-blend-mode: screen;
+}
+.mark{
+    border: none;
+    background-color: #FF716F;
+    height: 30px;
+    width: 250px;
+    margin: auto;
+    margin-top: 20px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    font-size: 18px;
+}
+.body1{
+    margin-top: 20px;
+}
+.body1 .c1{
+    border: none;
+    height: 150px;
+    width: 75%;
+    margin: auto;
+    padding-bottom: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+imgtext{
+    border: none;
+    height: 150px;
+    width: 1000px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+imgtext>p{
+    border: none;
+    height: 100px;
+    width: 300px;
+    font-size: 15px;
+}
+
+.pro{
+    border: none;
+    height: 100px;
+    width: 400px;
+    font-size: 25px;
+    margin: 0px auto;
+    text-align: center;
+    color: rgb(240, 32, 32);
+}
+
+.cas{
+    border: none;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.new{
+    border: none;
+    height: 150px;
+    width: 350px;
+    padding: 20px;
+    border-radius: 20px;
+    background: #f8f8f8;
+    text-align: center;
+}
+.new>p{
+    margin: 10px auto;
+    color: #337ab7;
+    text-align: center;
+}
+.new>button{
+    border: none;
+    height: 30px;
+    width: 100px;
+    border-radius: 5px;
+    padding: 9px;
+    display: flex;
+    margin: 28px auto;
+    background: #76c7c0;
+    color: #337ab7;
+}
+.pbg{
+    border: none;
+    height: 700px;
+    width: 100%;
+    background-image: url(./Image/HD\ wallpaper_\ metropolis\,\ horizon\,\ downtown\,\ tower\,\ sky\,\ dusk\,\ skyscraper.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    position: relative;
+}
+
+.pbg>img{
+    border: solid 2px #cabbbb;
+    height: 400px;
+    width: 40%;
+    border-radius: 20px;
+}
+.pbg>div{
+    position: absolute;
+    margin: 0px;
+    top: 60px;
+    font-size: 40px;
+    font-weight: bolder;
+    color: white;
+
+}
+
+.qq{
+    border: none;
+    height: 30px;
+    width: 350px;
+    text-align: center;
+    font-size: x-large;
+    font-style: italic;
+}
+.rm{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.man{
+    border: solid 1px #337ab7;
+    height: 230px;
+    width: 350px;
+    margin: 10px auto;
+}
+.man img{
+    height: 230px;
+    width: 350px;
+    cursor: pointer;
+}
+.man ul{
+    padding-left: 30px;
+}
+.ii{
+    border: none;
+    height: 450px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.cc{
+    border: none;
+    height: 100px;
+    width: 500px;
+    margin: auto;
+    text-align: center;
+    font-size: 25px;
+    color: #D20200;
+}
+.xn{
+    border: none;
+    height: 400px;
+    width: 100%; 
+}
+
+.c2{
+    border: none;
+    height: 150px;
+    width: 75%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-bottom: 0px;
+}
+.ss{
+    text-align: center;
+    font-size: 25px;
+    color: #D20200;
+}
+.ww{
+    border: none;
+    width: 800px;
+    height: 100px ;
+    margin: 20px auto;
+    padding: 30px;
+    background: #f8f8f8;
+    border-radius: 20px;
+}
+.mm{
+    border: none;
+    height: 180px;
+    width: 100%;
+    margin-top: 30px;
+    padding-top: 20px;
+    background-color: #f8f8f8;
+}
+
+.dds{
+    border: none;
+    height: 100px;
+    width: 100%;
+    background-color: #D20200;
+    padding-top: 30px;
+}
+.nn1{
+    border: none;
+    color: white;
+    margin: 0px;
+    top: 30px;
+}
+.nn2
+{
+    border: none;
+    height: 90px;
+    width: 300px;
+    color: white;
+    position: absolute;
+    margin: 0px;
+    right: 5%;
+}
+.mark:hover,.c1>img:hover,.c2>img:hover,.b1:hover,.pbg>img:hover{
+    transform: scale(1.1);
+}
+.pbg>img:hover{
+    box-shadow: 10px 10px 10px #cabbbb;
+}
+.man:hover{
+    border-color: #D20200;
+}
+
+
+/*page2*/
+.ph{
+    background-image: none;
+    border: none;
+    background-color: #76c7c0;
+    height: 150px;
+    width: 100%;
+}
+.p2nav{
+    border: none;
+    width: 100%;
+    background-color: black;
+    padding: 10px 0px;
+    display: flex;
+    justify-content: space-between;
+}
+.p2nav p{
+    height: 30px;
+    color: white;
+    cursor: pointer;
+    font-size: 20px;
+}
+.p2nav p:hover{
+    background-color: rgb(233, 233, 219);
+}
+.p2img img{
+    border: solid 0.5px black;
+    margin: 50px auto;
+    height: 800px;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.pg2 h4{
+    font-weight: bolder;
+    font-size: 25px;
+}
+.pg2 p{
+    margin: 10px auto;
+    font-size: 15px;
+}
+.p2dds{
+    background-color: black;
+    height: 50px;
+    margin-top: 20px;
+}
+
+.pgt{
+    border: none;
+    height: 60px;
+    font-size: 45px;
+    margin-top: 10px;
+    align-items: center;
+}
+a{
+    text-decoration: none;
+}
