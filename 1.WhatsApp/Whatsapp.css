@@ -1,0 +1,82 @@
+body{
+    margin-top: 5%;
+    margin-left: 5%;
+    border: solid 0px black;
+    height: auto;
+    width: fit-content;
+    background-color: rgb(132, 255, 239);
+    box-shadow: 20px 10px 10px gray;
+
+}
+.head1{
+    border: solid 0px ;
+    background-color: darkgreen;
+    height: 80px;
+    width: 100%;
+    padding-top: 2%;
+
+}
+.h1name{
+    text-align: left;
+    color: white;
+    font-size: 60px;
+    display: flex;
+}
+.h1name1{
+    font-size: 30px;
+    text-align: right;
+    justify-content: right;
+    margin-top: 3%;
+}
+.head2{
+    position: sticky;
+    top: 0%;
+    border: solid 1px black;
+    background-color: darkgreen;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+}
+.h2name{
+    font-size: 30px;
+    color: white;
+}
+.hh{
+    border: solid 3px white;
+    margin-top: 3px;
+    width: 100%;
+}
+.pp{
+    background-color: white;
+    font-size: 70px;
+    justify-content: left;
+}
+.p{
+    display: flex;
+}
+.pn{
+    font-size: 50px;
+    margin-top: 4%;
+    display: flex;
+}
+.c{
+    color: darkgreen ;
+    text-align: right;
+    font-size: 35px;
+    margin-top: 2%;
+    font-weight: bolder;
+}
+.chat{
+    border: solid 0px transparent;
+    background-color: darkgreen;
+    height: 60px;
+    width: 70px;
+    border-radius: 25%;
+    font-size: 30px;
+    text-align: center;
+    padding-top: 20px;
+    position: fixed;
+    bottom: 10%;
+    left: 500px;
+}
