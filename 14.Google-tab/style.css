@@ -1,0 +1,160 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-image: url('./bg/bg5.jpg'); 
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: background-image 0.5s ease;  /* Smooth transition for background change */
+}
+
+body>.a {
+    background-image: url('./bg/bg5.jpg');  /* Relative path for initial background */
+    background-attachment: fixed;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: -5;
+}
+
+.nav {
+    border: none;
+    height: 70px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+.nav a {
+    text-decoration: none;
+    margin-right: 25px;
+    font-size: 17px;
+    color: white;
+    transition: text 1s;
+}
+
+.nav a:hover {
+    transform: scale(1.1);
+    text-decoration: underline;
+}
+
+.container {
+    border: none;
+    height: 500px;
+    width: 100%;
+    text-align: center;
+    position: absolute;
+}
+
+.container>img {
+    height: 105px;
+    margin: auto;
+    margin-top: 85px;
+}
+
+.container .b1 {
+    border: none;
+    height: 45px;
+    width: 550px;
+    border-radius: 40px;
+    margin: 27px auto;
+    display: flex;
+    align-items: center;
+    background: white;
+    cursor: pointer;
+}
+
+.container .b1 img {
+    height: 25px;
+    margin-left: 15px;
+}
+
+.container .b1 input {
+    border: none;
+    height: 42px;
+    width: 400px;
+    margin: 0px 10px;
+    font-size: 16px;
+}
+
+.container .b2 {
+    height: 200px;
+    width: 130px;
+    margin: 1px auto;
+    font-size: 16px;
+    color: white;
+}
+
+.container .b1 input:focus {
+    outline: none;
+}
+
+.container .b2 li {
+    border: none;
+    height: 0px;
+    width: 0px;
+    padding: 30px;
+    margin: 10px auto;
+    border-radius: 50%;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    background: rgba(0, 0, 0, 0.250);
+}
+
+body .abc>img {
+    height: 40px;
+    position: fixed;
+    right: 20px;
+    bottom: 15px;
+    cursor: pointer;
+}
+
+body .off #cont {
+    display: none;
+}
+
+body .on #cont {
+    display: block;
+    position: absolute;
+    border: solid 5px white;
+    border-bottom: 0px;
+    height: 470px;
+    width: 405px;
+    right: 10px;
+    display: grid;
+    grid-template-columns: auto auto;
+    overflow-y: scroll;
+    background: white;
+}
+
+body #cont a {
+    height: 100px;
+    width: 190px;
+    margin: 5px;
+    position: relative;
+}
+
+body #cont a>img {
+    height: 100px;
+    width: 190px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+body #cont a>img:hover {
+    transform: scale(1.08);
+}
+
+::-webkit-scrollbar {
+    width: 0%;
+}
